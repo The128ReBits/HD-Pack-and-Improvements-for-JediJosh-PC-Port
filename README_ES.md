@@ -8,7 +8,7 @@
 
 **2.338 texturas HD, multilenguaje, personajes y acciones revisados, selector con mando desde la pausa para J1/J2, ampliaciones cooperativas, configurador e instalador propios.**
 
-La venganza de los Sith llega a Windows con el port nativo SWROTS-PC de JediJosh. Sobre su trabajo he preparado mi Pack de Texturas HD y mejoras: una edición para volver al juego con más detalle visual, más posibilidades para sus personajes y opciones más cómodas para jugar, configurar e instalar.
+La venganza de los Sith llega a Windows con el port nativo el port de PC de JediJosh de JediJosh. Sobre su trabajo he preparado mi Pack de Texturas HD y mejoras: una edición para volver al juego con más detalle visual, más posibilidades para sus personajes y opciones más cómodas para jugar, configurar e instalar.
 
 JediJosh es el creador del port. Su trabajo aporta resolución interna ampliada, panorámico, teclado y ratón, mandos Xbox y PlayStation, Yoda y Sith Yoda en versus, selección y carga de personajes, movimientos de duelo, cooperativo de dos jugadores, cámara libre y herramientas para modificar el juego. También están sus correcciones de sonido, vídeos, cambios de misión y diagnóstico. Esa es la base que hace posible esta edición y merece todo el reconocimiento.
 
@@ -25,14 +25,14 @@ Mi trabajo como The128ReBits es el pack HD y todas las mejoras que añado con es
 - UTILIDADES: perfiles con nombre, copias y restauración de partidas, comprobación de instalación, informe de fallos, acceso a carpetas, opciones de lanzamiento y restablecimiento de preferencias, conservando claves desconocidas y copias previas al guardar.
 - INSTALACION Y GRAFICOS OPCIONALES: un instalador con dos rutas, progreso, comprobaciones y copia de archivos sustituidos; documentación en cinco idiomas y fuentes incluidas. El asistente gestiona una integración gráfica opcional de tecnologías de terceros, sin convertirlas en desarrollo propio ni requisito del pack HD.
 
-El Pack de Texturas HD y todas las mejoras añadidas por este paquete son obra de The128ReBits. SWROTS-PC y las funciones originales del port son obra de jedijosh920 (JediJosh). Gracias por llevar este juego a PC y compartir el código, las herramientas y la investigación con la comunidad.
+El Pack de Texturas HD y todas las mejoras añadidas por este paquete son obra de The128ReBits. el port de PC de JediJosh y las funciones originales del port son obra de jedijosh920 (JediJosh). Gracias por llevar este juego a PC y compartir el código, las herramientas y la investigación con la comunidad.
 
 
 ## Descarga e instalación
 
 En [Releases](../../releases/latest), descarga **Pack_Texturas_HD_y_mejoras_by_The128ReBits_PAL-USA_SWROTS-PC_v0.4.0.zip**. Los archivos automáticos «Source code» son fuentes, no el instalador para jugar.
 
-Necesitas [SWROTS-PC v0.4.0](https://github.com/jedijosh920/SWROTS-PC/releases/tag/v0.4.0) y tu juego **Xbox PAL/USA reconocido**. El juego, la ISO y los archivos originales del port no están incluidos. El pack PS2/PCSX2 tiene otra instalación y no hace falta para esta edición.
+Necesitas [el port de PC de JediJosh v0.4.0](https://github.com/jedijosh920/SWROTS-PC/releases/tag/v0.4.0) y tu juego **Xbox PAL/USA reconocido**. El juego, la ISO y los archivos originales del port no están incluidos. El pack PS2/PCSX2 tiene otra instalación y no hace falta para esta edición.
 
 Extrae el ZIP completo y abre **Instalar Pack HD y mejoras.exe**:
 

@@ -28,7 +28,7 @@ Revised native actions include the super battle droid, buzz droid, flyer, walker
 
 ## JediJosh made the foundation
 
-JediJosh created **SWROTS-PC**, the native Windows port: graphics and sound, higher internal resolution, widescreen, keyboard/mouse and Xbox/PlayStation controllers. His work also adds Yoda and Sith Yoda in Versus, character/body selection and loading from other levels, duel moves, the original two-player story co-op, free camera, debug/modding tools, loose-file replacements and port fixes.
+JediJosh created **JediJosh’s PC port**, the native Windows port: graphics and sound, higher internal resolution, widescreen, keyboard/mouse and Xbox/PlayStation controllers. His work also adds Yoda and Sith Yoda in Versus, character/body selection and loading from other levels, duel moves, the original two-player story co-op, free camera, debug/modding tools, loose-file replacements and port fixes.
 
 **Thank you, JediJosh, for bringing the game to PC and sharing your code, research and tools.** [Original project](https://github.com/jedijosh920/SWROTS-PC) · [Support JediJosh](https://ko-fi.com/jedijosh920)
 
@@ -36,7 +36,7 @@ JediJosh created **SWROTS-PC**, the native Windows port: graphics and sound, hig
 
 Open [Releases](../../releases/latest) and download **Pack_Texturas_HD_y_mejoras_by_The128ReBits_PAL-USA_SWROTS-PC_v0.4.0.zip**. The automatic “Source code” archives are not the player installer.
 
-You need **[SWROTS-PC v0.4.0](https://github.com/jedijosh920/SWROTS-PC/releases/tag/v0.4.0)**, your **own recognised PAL/USA Xbox game**, and Windows compatible with the port. The game, ISO and original port files are not included. This is the native SWROTS-PC edition; the PS2/PCSX2 pack is a separate download and is not required.
+You need **[JediJosh’s PC port v0.4.0](https://github.com/jedijosh920/SWROTS-PC/releases/tag/v0.4.0)**, your **own recognised PAL/USA Xbox game**, and Windows compatible with the port. The game, ISO and original port files are not included. This is the native JediJosh’s PC port edition; the PS2/PCSX2 pack is a separate download and is not required.
 
 Extract the **complete ZIP** and open **Instalar Pack HD y mejoras.exe**.
 
