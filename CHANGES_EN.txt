@@ -1,0 +1,120 @@
+﻿DISTRIBUTION REVIEW 2026-10-24: external selector BMPs are removed; fallback to resources on your own disc remains where available. Some entries still need in-game visual review. Optional LumeniteFX TRAA is obtained from its official source with SHA-256, not bundled. It is not required for HD.
+
+HD TEXTURE PACK & IMPROVEMENTS — CHANGES UP TO RELEASE
+
+HD pack and improvements by The128ReBits for SWROTS-PC v0.4.0 by jedijosh920 (JediJosh). Record prepared on 23/10/2026 from the reports of each work session (dated folders in 08_PORT_XBOX). Contributions from the original port are marked [JediJosh]; the rest is the work of The128ReBits.
+
+BASE: SWROTS-PC BY JEDIJOSH [JediJosh]
+
+- v0.1.0–v0.1.1 (28–30/09/2026): native Windows port of the Xbox game with sound, controls, settings and startup fixes.
+- v0.2.0–v0.2.1 (30/09–01/10): playable Yoda in versus, Sith Yoda, loading characters from other levels, unlockprofile and crash fixes.
+- v0.3.0–v0.3.1 (04–05/10): story with any character, duels in any level, character spawning, free camera, game tab and screenshots.
+- v0.4.0 (09/10): co-op, music modding (by @anakinfan8), hang watchdog and audio fixes.
+
+HD PACK (BEFORE THE XBOX PORT)
+
+- Manual texture dumping and pack production over many rounds: V4.3, V4.4, V4.5, V4.7, V4.8, V4.9 Ultra and V4.10 Native/Aggressive.
+- Original/candidate web comparators, author preference profiles, icon and interface reviews.
+- RGB/CLUT, functional channel and transparency fixes.
+- PCSX2 pack released on ModDB (earlier branch, with its own figures).
+
+ADAPTATION TO THE XBOX PORT (19–21/10/2026)
+
+- STX indexing and extraction, locating them in PAK files and matching HD material.
+- GPU pack: 2,338 DDS textures on the graphics card to avoid filling the emulated Xbox memory; 17 STX supplements.
+- The same pack supports PAL and USA discs (2,908 variants checked).
+- Enable/disable HD without deleting or blindly copying files.
+- The author removed the 54 loading illustration pieces: the disc originals are used.
+- Release (23/10): regenerated from The128ReBits' original HD pack (ModDB NATIVE version) at its original resolution. The previous conversion downscaled 1,345 textures to the next lower power of two (for example 1280 to 1024). Now it only converts to the port's format (DDS DXT1/DXT5 with mipmaps), without downscaling.
+
+PAL VERSION AND LANGUAGES
+
+- Dedicated PAL core (core.dll) with verified PAL executable addresses, and NTSC-U core (core_na.dll). The loader selects by XBE fingerprint.
+- MULTILINGUAL: subtitles, menus and game text in general in Spanish, English, French, German and Italian, as well as character entries, configurator, installer and credits. Voices remain in English: the game was officially dubbed only in English.
+- Test tool to rebuild a PAL ISO from owned data and check the installer.
+
+CHARACTERS AND GAMEPLAY
+
+- Playable Palpatine:
+- Previously crashed the game: his cutscene controller cannot be played.
+- Now uses a compatible combat controller with saber (Anakin style) or blaster (clone style).
+- His body is checked before use and never returns to the cutscene controller, even as P2.
+- Per-character style and damage in [Madness].
+- Weapon selector: Automatic, Saber, Blaster or Native per character, with recommended weapon, in-game and in the configurator.
+- Controller character switching: the Madness row in the pause menu opens the character selector, operated with a controller; B returns to pause. Previously required a keyboard. P2 choice waits until the pause ends. Tested with 262,144 input combinations.
+- 40 character entries with portraits, ratings in five languages (Complete, Native actions, Experimental, Partial or For a look), named costumes, control notes and recommended weapon.
+- Native actions per class:
+- super battle droid: X three hits, B charge, Y fire
+- buzz droid: X saw, Y jump/grab, B roll, LT bounce
+- flyer: Y alternating blasters, X blade, LT arm shield
+- walker: Y cannon, X charge
+- flamethrower: fire, B dodge, RB grab
+- droideka: fire without a target, LT shield
+- B1 and clones: fire and shove
+- grappler: hook with a delay
+- R2-D2: probe, celebrate and repair
+- C-3PO: repairs and heals a nearby partner by 15%, every 20 seconds
+- Neimoidians recommend a blaster. The temple shooter is renamed Jedi Temple Shooter.
+- Balanced health:
+- damage and defence scaling with finite limits
+- buzz droid: health ×2, takes half damage and deals ×1.5
+- R2: health ×1.25 and damage ×1.5
+- walker: damage ×2.25
+- Faithful and Madness modes explained in the configurator, with their own in-game menu; Madness challenge per character.
+- P1 and P2 selector and expanded co-op built on JediJosh's base: balanced health and a shield for P2.
+- Per-level character cache (16 combinations): no more restarting after two swaps.
+- Mission help to temporarily restore the protagonist for story events.
+
+CHARACTER BUGS FIXED
+
+- 20/10: combat audit; health guard and health/MSAA translations.
+- 21/10: weapons, heavy actions, fire and shield, portraits (round 4), character events, Madness menu lock and health balance (round 6).
+- 22/10, control repair: round 6 broke control installation for eight classes (droideka, flamethrower, super battle droid, grappler, walker, buzz droid, flyer and R2). Removed the global hook, restricted buzz droid protection to its four self-damage calls and restored previous controls.
+- 22/10: B1 held fire no longer overrides its shove; all actions respect pause; R2 clears its hook when reinstalling; flamethrower recovers its native grab; droideka dies correctly.
+
+GRAPHICS AND OPTIONAL DLSS
+
+- Tuned graphics profile using The Two Towers port as a reference (77% quality and SWROTS_Relieve relief).
+- Optional integration of dgVoodoo2, ReShade, DLSS5-Feeder, RenoDX, LumeniteFX and NVIDIA runtimes (by their authors), with profiles and intensity.
+- Automatic return to Direct3D 9 if the bridge fails.
+- Easy DLSS (22/10): install, enable, disable or customise from the configurator; components checked by SHA-256.
+
+CONFIGURATOR
+
+- Modes, graphics, HD, per-character profiles, weapons, co-op and language; saving preserves encoding and unknown keys, with a prior backup. Scrollable window for small screens and Xbox ISO import button.
+- Release (23/10):
+- Removed the confusing STX + GPU HD label; only warns when the HD pack is missing.
+- Controls editor: change each action with keyboard or mouse (including side buttons), multiple keys per action, duplicate warning, mouse as right stick, sensitivity and walking speed.
+- Tools: named settings/control profiles, save backups and restoration, installation check, ZIP bug report (without personal data), open folders, close the configurator or raise priority when PLAY is pressed, reset settings or controls.
+- FPS: 30 (original), 60, 120, 165, 180 and 240. Everything above 30 is experimental because part of the game logic counts at 30. Above 60 requires a matching-refresh monitor or disabling VSync. Also changeable in the game menu.
+- Credits, thanks and social links you can click.
+
+INSTALLER
+
+- 23/10: two-option installer inspired by the author's Hit & Run installer:
+- Add the HD pack and improvements to a working port without changing the executable, GameData, saves or settings.
+- Fresh installation from the v0.4.0 port ZIP/folder and your own PAL or USA ISO.
+- Checks region, manifest and hashes, backs up replaced files and keeps a log.
+- Release:
+- Real progress bar (prepare port, extract ISO, check, copy and install), percentage and approximate remaining time.
+- New window titled Pack de Texturas HD y mejoras — by The128ReBits.
+- Text no longer clipped at Windows scaling of 125% or 150%.
+- Credits in five languages with JediJosh, community and The128ReBits links.
+- Future JediJosh version compatibility:
+- Reads the user's port version.
+- Warns in five languages before changing anything if it differs from the versions the mod was built for.
+- Only replaces JediJosh's core.dll if accepted, always with a backup.
+- Includes fuentes_nucleo/actualizar_jedijosh for rebuilding cores on a new version. Tested: rebuilds both current core source trees without a single difference.
+
+TESTS
+
+- Isolated PAL and NTSC-U installer tests pass: fresh installation, update, restore, unsafe ZIP and invalid ISO rejection, credits in five languages.
+- The author tested the game with the installer in PAL and NTSC-U, and with the mod already installed.
+- FPS above 60 and the controls editor still need in-game testing. 30 is recommended for the story.
+- Known pending issues: droideka bubble, flamethrower grab damage, walker charge and aiming. HD coverage is not 100%.
+
+DOCUMENTATION AND SHORTCUTS (23/10/2026)
+
+- User documentation in five languages under Documentacion, as UTF-8 TXT with BOM and CRLF; short LEEME_README.txt entry point.
+- Check installation, Restore backup and Configure installed game in the installer, without reinstalling to configure DLSS.
+- Four numbered root shortcuts removed. Shortcuts inside the installed game kept.

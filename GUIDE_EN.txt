@@ -1,0 +1,68 @@
+﻿DISTRIBUTION REVIEW 2026-10-24: external selector BMPs are removed; fallback to resources on your own disc remains where available. Some entries still need in-game visual review. Optional LumeniteFX TRAA is obtained from its official source with SHA-256, not bundled. It is not required for HD.
+
+HD TEXTURE PACK & IMPROVEMENTS — by The128ReBits
+
+For SWROTS-PC v0.4.0 by jedijosh920 (JediJosh), the native PC port of the Xbox game Star Wars Episode III: Revenge of the Sith.
+
+THANK YOU, JEDIJOSH
+
+A huge thank you to jedijosh920 (JediJosh) for SWROTS-PC and his tools, the foundation of this HD pack and all its improvements. Support him: https://github.com/jedijosh920 · https://ko-fi.com/jedijosh920 · https://www.youtube.com/jedijosh920. See CREDITS.txt and CHANGES.txt in this folder for detailed credits and contributions.
+
+THE128REBITS
+
+Every HD texture is the work of The128ReBits. This is his original HD pack, the same as on ModDB, at its original resolution without downscaling. All the improvements to the port included in this package are also his work.
+
+ModDB: https://www.moddb.com/members/the128rebits/mods
+YouTube: https://www.youtube.com/@The128ReBits
+Ko-fi: https://ko-fi.com/the128rebits
+Patreon: https://www.patreon.com/The128ReBits
+
+WHAT IS INCLUDED
+
+- HD texture pack at its original resolution: 2,338 textures on the graphics card, for PAL and USA discs.
+- Dedicated PAL core alongside USA; selected automatically from your disc.
+- MULTILINGUAL: subtitles, menus and game text in general in Spanish, English, French, German and Italian, as well as character entries, configurator, installer and credits. Voices remain in English: the game was officially dubbed only in English.
+- Playable Palpatine with saber or blaster (he used to crash the game), also as P2.
+- Per-character weapon selector: Automatic, Saber, Blaster or Native, with a recommended weapon.
+- Change characters using a controller from the game's pause menu (previously required a keyboard), for P1 and P2.
+- 40 polished characters, with portraits, ratings, named costumes and native actions per class: super battle droid, buzz droid, flyer, walker, flamethrower, droideka, B1, clones, grappler, R2-D2 and C-3PO.
+- Character bugs fixed, balanced health, Faithful and Madness modes, mission help and expanded co-op.
+- Configurator with graphics, HD, easy DLSS, controls editor, tools and 30–240 FPS (above 30 is experimental).
+- Two-option installer with a progress bar.
+
+The full list is in CHANGES.txt.
+
+OPEN Instalar Pack HD y mejoras.exe
+
+Keep this entire folder together: the installer uses the HD pack included in archivos. No third texture package is required.
+
+Choose one of two options:
+
+- I already have the game working: select the folder containing swrots.exe and GameData. Click Install the HD pack and improvements. PAL or USA is detected; the original executable, data, saves and settings are kept. HD follows your current setting; if none existed, it is enabled by default.
+- Fresh installation: select JediJosh's v0.4.0 port (ZIP or extracted folder), your PAL or USA Xbox ISO/XISO and a new/empty destination folder. Click Install the game with the HD pack and improvements. Your disc is extracted and the correct regional version is applied with the included HD pack.
+
+There is no need to open the game first. The installer does not run it. When finished, you can open the Configurator, choose mode/language, then open swrots.exe yourself.
+
+You need the original port files and your own disc: they are not included. Do not mix two regions in one folder. To try both, repeat the fresh installation in two different destinations.
+
+OPTIONAL DLSS
+
+You can select its option in the installer. Missing components can be downloaded and their SHA-256 hashes verified. The Lecram neural runtime is a community build; each component keeps its licence. If DLSS fails, the base mod remains installed and can be reviewed in the Configurator.
+
+Configure installed game in the installer opens the configurator for an existing game without reinstalling. You can manage DLSS and use its tools there. DLSS FACIL.bat is still available inside the installed game. If you already have local components, select them in the DLSS wizard.
+
+NEW JEDIJOSH VERSIONS
+
+This package was compiled for SWROTS-PC v0.4.0. If your port has a different version, the installer warns you before changing anything. If you continue, JediJosh's core.dll is replaced with the mod's and backed up: you get the mod, but not that version's additions until the pack is released for it. The HD textures work with any version. The developer kit for rebuilding cores is in fuentes_nucleo/actualizar_jedijosh; its technical guide is not needed to install or play.
+
+BACKUPS AND RESTORATION
+
+Replaced files are backed up under _backups_20261019/mod_sith_FECHA. The installer shows the path. Restore backup in the installer lets you choose the installation and its backup folder (the one containing instalacion.json). Settings and disc data are kept. Fresh installations use a temporary folder first; if they fail before completion, a .sith_preparacion folder may remain for diagnosis.
+
+STATUS
+
+Release version. The author has tested the game using the installer in PAL and NTSC-U, and with the mod already installed. Both installer paths pass isolated tests. Everything above 30 FPS is experimental: part of the game logic counts at 30, so 30 is recommended for playing the story.
+
+For the folder guide, see WHERE_IS_EVERYTHING.txt. Installer sources are in fuentes_instalador and core sources in fuentes_nucleo (GPL-3.0).
+
+Use Check installation in the installer to check the package and your installation. The numbered shortcuts at the package root have been removed; their functions are available in the installer.

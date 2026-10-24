@@ -1,0 +1,10 @@
+*.zip
+*.exe
+*.dll
+GameData/
+*.iso
+*.xiso
+*.xbe
+*.pak
+settings.ini
+controls.ini

@@ -1,0 +1,109 @@
+﻿DISTRIBUTION REVIEW 2026-10-24: external selector BMPs are removed; fallback to resources on your own disc remains where available. Some entries still need in-game visual review. Optional LumeniteFX TRAA is obtained from its official source with SHA-256, not bundled. It is not required for HD.
+
+HD TEXTURE PACK & IMPROVEMENTS — by The128ReBits
+
+Credits and thanks. For SWROTS-PC v0.4.0 by jedijosh920 (JediJosh).
+
+THANK YOU, JEDIJOSH
+
+A huge thank you to jedijosh920 (JediJosh), creator of SWROTS-PC, for bringing the Xbox game to PC and sharing his code, research and tools with the community. His work makes native Windows play and new packs and improvements possible. Follow and support his project:
+
+GitHub: https://github.com/jedijosh920
+
+SWROTS-PC: https://github.com/jedijosh920/SWROTS-PC
+
+YouTube: https://www.youtube.com/jedijosh920
+
+Ko-fi: https://ko-fi.com/jedijosh920
+
+X: https://x.com/jedijosh920
+
+Steam: https://steamcommunity.com/id/jedijosh920
+
+JEDIJOSH’S WORK ON SWROTS-PC
+
+- NATIVE WINDOWS PORT: adaptation of the Xbox kernel, graphics and audio to Windows using Direct3D 9 and XAudio2; the game’s code runs natively.
+
+- PORT GRAPHICS AND CONTROLS: higher internal resolution, 16:9, fullscreen and anisotropic filtering; keyboard, mouse and Xbox, DualShock 4 and DualSense controllers with rumble.
+
+- YODA AND SITH YODA: playable Yoda in versus with his own selection slot, red-saber Sith Yoda for the second player and blocking with Yoda’s animation.
+
+- CHARACTERS AND DUELS: class, costume, texture and body selection for story play; loading characters from other levels, spawning allies or enemies and duel moves outside duel levels.
+
+- THE PORT’S ORIGINAL CO-OP: two players in story and bonus missions, shared camera, controller joining, P2 respawning and the option to play the boss or fight alongside P1.
+
+- FREE CAMERA AND DEBUGGING: freecam, screenshot captures, the game console, unlockprofile and tools to inspect health, Force, AI, HUD and time scale.
+
+- MODDING FOUNDATION: resource overrides through loose files, asset dumping, guides and documentation of formats and the engine, shared with the community.
+
+- PORT FIXES: startup sound, movie audio, stability when changing or restarting missions, hang monitoring and logs for investigating bugs.
+
+SWROTS-PC v0.1.0 - v0.4.0: https://github.com/jedijosh920/SWROTS-PC/releases
+
+SWROTS-PC COMMUNITY
+
+@anakinfan8 — Mac testing, weapon and music modding: https://github.com/anakinfan8
+
+@chatgipity — Linux and handheld guide: https://github.com/chatgipity
+
+@QTG128 — the first bug report (the missing sound at startup): https://github.com/QTG128
+
+Cxbx-Reloaded and its contributors — Xbox research and shader translation: https://github.com/Cxbx-Reloaded/Cxbx-Reloaded
+
+Dear ImGui (Omar Cornut and contributors) — debug menu: https://github.com/ocornut/imgui
+
+THE128REBITS — AUTHOR OF THE HD TEXTURE PACK & IMPROVEMENTS
+
+The HD Texture Pack and all improvements added by this package are the work of The128ReBits. The128ReBits is the author of every HD texture and of the improvements detailed below:
+
+- HD TEXTURES: every HD texture is the work of The128ReBits. This is his original HD pack, the same one as on ModDB, at its original resolution and not downscaled: 2,338 DDS textures loaded on the graphics card, valid for PAL and USA discs (2,908 variants checked), switched on or off without losing anything.
+
+- Textures dumped by hand from the game and adapted to the port with a fingerprint index. The 54 loading illustrations are the disc originals again.
+
+- PAL VERSION: its own PAL core with the PAL executable addresses verified, a USA core and automatic choice by disc fingerprint. Install from your own PAL or USA ISO.
+
+- MULTILINGUAL: subtitles, menus and game text in general in Spanish, English, French, German and Italian, as well as character entries, configurator, installer and credits. Voices remain in English: the game was officially dubbed only in English.
+
+- PALPATINE: he used to crash the game (his cutscene controller cannot be played). Now Palpatine is playable with saber or blaster, also as P2, with his own style and damage.
+
+- WEAPON SELECTOR: Automatic, Saber, Blaster or Native for each character, with a recommended weapon and its own combat style and damage, in game and in the configurator.
+
+- SWITCH CHARACTER WITH THE CONTROLLER: the game's pause menu opens the character selector and it is used with the controller; the keyboard used to be required. Works for P1 and P2.
+
+- 40 POLISHED CHARACTERS: entries with portraits , a rating (Complete, Native actions, Experimental, Partial, Just for a look), named costumes, control notes and a recommended weapon.
+
+- NATIVE ACTIONS PER CLASS: super battle droid (hits, charge and fire), buzz droid (saw, jump and grab, roll), flyer (blasters, blade and shield), walker (cannon and charge), flamethrower (fire, dodge and grab), droideka (fire and shield), B1 and clones (fire and shove), grappler, R2-D2 (probe, celebrate and repair) and C-3PO (repairs and heals the partner).
+
+- BUGS FIXED: controls of eight classes that failed to install, B1 shove and fire, pause respected by every action, droideka death, locked Madness menu and restarts after two character swaps (now cached per level).
+
+- GAMEPLAY: explained Faithful and Madness modes, a Madness challenge per character, balanced health (bonuses for buzz droid, R2 and walker), mission help and extended co-op with selector, health and shield for P2.
+
+- GRAPHICS: tuned graphics profile, easy DLSS (install, enable or remove in one click, components checked by SHA-256) and automatic fallback to Direct3D 9 if something fails.
+
+- CONFIGURATOR: modes, graphics, HD, per-character profiles, weapons, P2, language, controls editor, tools (profiles, save backups, installation check, bug report), Xbox ISO import and 30/60/120/165/180/240 FPS (above 30 is experimental).
+
+- INSTALLER: two options (add to a game that already works or a fresh install from your ISO), progress bar, backup of what it replaces, a warning if your port is another version and a kit to adapt the mod to future JediJosh versions.
+
+Follow and support the128rebits:
+
+ModDB: https://www.moddb.com/members/the128rebits/mods
+
+YouTube: https://www.youtube.com/@The128ReBits
+
+Ko-fi: https://ko-fi.com/the128rebits
+
+Patreon: https://www.patreon.com/The128ReBits
+
+Instagram: https://www.instagram.com/The128ReBits
+
+TikTok: https://www.tiktok.com/@the128rebits
+
+GameFront: https://www.gamefront.com/@the128rebits
+
+Linktree: https://linktr.ee/the128rebits
+
+ORIGINAL GAME AND THIRD PARTIES
+
+The game was developed by The Collective and published by LucasArts. Original characters, models, animations, sounds and assets belong to their owners; Star Wars belongs to its owners. The original credits and notices are kept.
+
+The optional graphics integration uses dgVoodoo2, ReShade, DLSS5-Feeder, RenoDX, LumeniteFX and NVIDIA runtimes; the Lecram neural runtime is a community build. Each component keeps its authorship and licence. Portrait sources in portraits/FUENTES.txt; the port's notices and licence in THIRD_PARTY_NOTICES_SWROTS.txt and LICENSE_SWROTS.txt.

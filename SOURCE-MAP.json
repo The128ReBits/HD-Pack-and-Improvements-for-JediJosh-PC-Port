@@ -1,0 +1,45 @@
+{
+  "upstream_tag": "v0.4.0",
+  "upstream_commit": "f459f126fd9a62065fa1764d7127469900a6e653",
+  "product_tag": "hd-pack-launch-swrots-v0.4.0",
+  "regional_rebuild": "Not repeated in this session; inherited regional binaries and source snapshots preserved",
+  "builds": "Installer and configurator compiled with .NET Framework csc C#5 x86; pinned optional download tests PASS",
+  "binaries": [
+    {
+      "binary": "Instalar Pack HD y mejoras.exe",
+      "sha256": "5863b22fe8cfd8ca8c71fffb7d88ad2d01e6ede062ef2a816a1597ca61a5484f",
+      "source_snapshot": "fuentes_instalador"
+    },
+    {
+      "binary": "archivos/shared/Configurador SWROTS.exe",
+      "sha256": "1e5f730326a6bee0b2e48004a25a7899235f3b75a65fc86c7b4463f1fbc17bdb",
+      "source_snapshot": "fuentes_instalador"
+    },
+    {
+      "binary": "archivos/PAL/core.dll",
+      "sha256": "0e80dbe58459dcb0b5c636e33764ecdaa1e57575020f67d394cd250f813e4fe5",
+      "source_snapshot": "fuentes_nucleo/PAL"
+    },
+    {
+      "binary": "archivos/NTSC-U/core.dll",
+      "sha256": "59d080dab2b8a781bbea485408b64d42fa286de1b31d18dcead39bac7ee8d966",
+      "source_snapshot": "fuentes_nucleo/NTSC-U"
+    },
+    {
+      "binary": "archivos/NTSC-U/core_na.dll",
+      "sha256": "59d080dab2b8a781bbea485408b64d42fa286de1b31d18dcead39bac7ee8d966",
+      "source_snapshot": "fuentes_nucleo/NTSC-U"
+    }
+  ],
+  "trees": {
+    "fuentes_instalador": {
+      "files": 21,
+      "tree_sha256": "02126d039d4b337ae2384e107c44f90855c05bcf6fb61598d485d84a07a433d4"
+    },
+    "fuentes_nucleo": {
+      "files": 363,
+      "tree_sha256": "7b63f16b75117b72652358c78955fbf13879b444706ad391b984cc49d5e35d16"
+    }
+  },
+  "note": "Release metadata updated in repository; source and binary hashes identify the unmodified reviewed archive."
+}

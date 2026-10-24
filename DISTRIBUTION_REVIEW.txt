@@ -1,0 +1,14 @@
+VARIANTE LOCAL DE DISTRIBUCION REVISADA — 24/10/2026
+Se retiraron 25 BMP externos del selector. Se conserva el respaldo de recursos del disco del usuario, cuya apariencia en partida queda pendiente de revisión.
+LumeniteFX TRAA no se redistribuye: la opción DLSS lo obtiene desde el repositorio oficial con versión fija y SHA-256, junto a los demás componentes opcionales. La descarga es solo al solicitarla; no hace falta para HD.
+Se recompilaron instalador y configurador con C# 5. No se cambiaron núcleos regionales, texturas HD, BAT internos ni el juego.
+No hay nueva certificación de gameplay o rendimiento. Esta variante espera revisión del autor antes de su publicación.
+
+LOCAL DISTRIBUTION REVIEW VARIANT — 2026-10-24
+25 external selector BMPs were removed. Fallback to user-provided disc resources remains; in-game appearance still needs review.
+LumeniteFX TRAA is not redistributed: the optional DLSS assistant retrieves the pinned official file and checks SHA-256 when requested. It is not required for HD.
+Installer and configurator rebuilt with C# 5. Regional cores, HD textures, internal BAT files and game are unchanged. No new gameplay/performance certification; author review required before publication.
+
+ADICION FINAL / FINAL ADDITION
+17 archivos iMMERSE de Pascal Gilcher tambien se obtienen del repositorio oficial con commit fijo y SHA-256. No se redistribuyen en el ZIP. Se verifico que esos archivos oficiales coinciden con los originales locales. El catalogo opcional contiene 26 entradas. No hay certificacion de efecto en GPU.
+17 iMMERSE files by Pascal Gilcher are also retrieved from their official repository at a pinned commit with SHA-256. They are not bundled. Official files were verified to match the original local versions. The optional catalog has 26 entries. No GPU-effect certification.

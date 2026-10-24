@@ -1,0 +1,120 @@
+﻿REVISION DE DISTRIBUCION 24/10/2026: se retiran los BMP externos del selector; se conserva el respaldo a recursos del disco propio cuando estan disponibles. La apariencia de algunas fichas espera revision en partida. LumeniteFX TRAA se obtiene opcionalmente desde su fuente oficial con SHA-256, no se incluye su copia. No hace falta para HD.
+
+PACK DE TEXTURAS HD Y MEJORAS — CAMBIOS HASTA EL LANZAMIENTO
+
+Pack HD y mejoras de The128ReBits sobre SWROTS-PC v0.4.0 de jedijosh920 (JediJosh). Registro preparado el 23/10/2026 a partir de los informes de cada sesión de trabajo (carpetas con fecha dentro de 08_PORT_XBOX). Lo que viene del port original se marca como [JediJosh]; el resto es trabajo de The128ReBits.
+
+BASE: SWROTS-PC DE JEDIJOSH [JEDIJOSH]
+
+- v0.1.0 – v0.1.1 (28–30/09/2026): port nativo para Windows del juego de Xbox, con sonido, controles, ajustes y correcciones de arranque.
+- v0.2.0 – v0.2.1 (30/09 – 01/10): Yoda jugable en versus, Sith Yoda, carga de personajes de otros niveles, unlockprofile y correcciones de cuelgues.
+- v0.3.0 – v0.3.1 (04–05/10): jugar la historia con cualquier personaje, duelos en cualquier nivel, aparición de personajes, cámara libre, pestaña de juego y capturas.
+- v0.4.0 (09/10): cooperativo, modding de música (de @anakinfan8), vigilante de bloqueos y correcciones de audio.
+
+PACK HD (ANTES DEL PORT DE XBOX)
+
+- Volcado manual de las texturas del juego y producción del pack en muchas rondas: V4.3, V4.4, V4.5, V4.7, V4.8, V4.9 Ultra y V4.10 Native/Aggressive.
+- Comparadores web original/candidatos, perfiles de preferencias del autor, revisión de iconos e interfaz.
+- Correcciones de RGB/CLUT, canales funcionales y transparencias.
+- Pack para PCSX2 publicado en ModDB (rama anterior, con sus propias cifras).
+
+ADAPTACIÓN AL PORT DE XBOX (19–21/10/2026)
+
+- Índice y extracción de STX, localización en los PAK y correspondencia con el material HD.
+- Pack GPU: 2.338 texturas DDS cargadas en la tarjeta gráfica, para no llenar la memoria de la Xbox emulada; 17 complementos STX.
+- El mismo pack sirve para los discos PAL y USA (2.908 variantes comprobadas).
+- Activar/desactivar HD sin borrar ni copiar archivos a ciegas.
+- Retiradas las 54 piezas de las ilustraciones de carga, por decisión del autor: se usan las del disco.
+- Lanzamiento (23/10): el pack se ha regenerado desde el pack HD original de The128ReBits (versión NATIVE de ModDB) a su resolución original. La conversión anterior bajaba 1.345 texturas a la potencia de dos inferior (por ejemplo, de 1280 a 1024). Ahora solo se pasa al formato que lee el port (DDS DXT1/DXT5 con mipmaps), sin reducir.
+
+VERSIÓN PAL E IDIOMAS
+
+- Núcleo PAL propio (core.dll) con las direcciones del ejecutable PAL verificadas, y núcleo NTSC-U (core_na.dll). El cargador elige según la huella del XBE.
+- MULTILENGUAJE: subtítulos, menús y textos del juego en general en español, inglés, francés, alemán e italiano, además de las fichas de personaje, el configurador, el instalador y los créditos. Las voces permanecen en inglés: el juego solo tuvo doblaje oficial en inglés.
+- Herramienta de pruebas para reconstruir una ISO PAL a partir de los datos propios y comprobar el instalador.
+
+PERSONAJES Y JUGABILIDAD
+
+- Palpatine jugable:
+- Antes cerraba el juego: su controlador de cinemática no se puede jugar.
+- Ahora usa un controlador de combate compatible, con sable (estilo de Anakin) o bláster (estilo de clon).
+- Su cuerpo se comprueba antes de usarlo y nunca vuelve al controlador de cinemática, tampoco como J2.
+- Estilo y daño propios por personaje en [Madness].
+- Selector de arma: Automático, Sable, Bláster o Nativa para cada personaje, con arma recomendada, en el juego y en el configurador.
+- Cambiar de personaje con el mando: la fila Locura del menú de pausa abre el selector de personaje y se maneja con el mando; B vuelve al menú de pausa. Antes hacía falta el teclado. La elección de J2 espera a que termine la pausa. Probado con 262.144 combinaciones de entrada.
+- 40 fichas de personaje con retratos, valoración en cinco idiomas (Completo, Acciones nativas, Experimental, Parcial o Curiosear), trajes con nombre, notas de controles y arma recomendada.
+- Acciones nativas por clase:
+- superdroide: X tres golpes, B carga, Y disparo
+- zumbador: X sierra, Y salto/agarre, B rodar, LT rebote
+- volador: Y blásteres alternos, X cuchilla, LT escudo de brazo
+- andador: Y cañón, X embestida
+- lanzallamas: fuego, B esquiva, RB agarre
+- droideka: dispara sin objetivo, LT escudo
+- B1 y clones: disparo y empujón
+- garra: gancho con espera
+- R2-D2: sonda, celebrar y reparar
+- C-3PO: repara y cura un 15 % al compañero cercano, cada 20 s
+- Los neimoidianos recomiendan bláster. El tirador del templo pasa a llamarse «Tirador del Templo Jedi».
+- Vida equilibrada:
+- escalado de daño y defensa con límites finitos
+- zumbador: vida ×2, recibe la mitad de daño y hace ×1,5
+- R2: vida ×1,25 y daño ×1,5
+- andador: daño ×2,25
+- Modos Fiel y Locura, explicados en el configurador y con menú propio en el juego; reto Locura por personaje.
+- Selector de J1 y J2 y cooperativo ampliado sobre la base de JediJosh: vida equilibrada y escudo para J2.
+- Caché de personajes por nivel (16 combinaciones): se acabó reiniciar el juego tras dos cambios.
+- Ayuda de misión para recuperar temporalmente al protagonista en eventos de historia.
+
+FALLOS DE PERSONAJES CORREGIDOS
+
+- 20/10: auditoría de combate; guardia de vida y traducciones de vida/MSAA.
+- 21/10: armas, acciones pesadas, disparo y escudo, retratos (ronda 4), eventos de personajes, bloqueo del menú Locura y balance de vida (ronda 6).
+- 22/10, reparación de controles: la ronda 6 había roto la instalación de controles de ocho clases (droideka, lanzallamas, superdroide, garra, andador, zumbador, volador y R2). Se quitó el gancho global, la protección del zumbador se limitó a sus cuatro llamadas de daño propio y se recuperaron los controles anteriores.
+- 22/10: el disparo mantenido del B1 ya no pisa su empujón; todas las acciones respetan la pausa; R2 limpia su gancho al reinstalar; el lanzallamas recupera su agarre nativo; el droideka muere correctamente.
+
+GRÁFICOS Y DLSS OPCIONAL
+
+- Perfil gráfico ajustado tomando como referencia el port de Las Dos Torres (calidad al 77 % y relieve SWROTS_Relieve).
+- Integración opcional de dgVoodoo2, ReShade, DLSS5-Feeder, RenoDX, LumeniteFX y runtimes NVIDIA (de sus autores), con perfiles e intensidad.
+- Vuelta automática a Direct3D 9 si el puente falla.
+- DLSS fácil (22/10): instala, activa, desactiva o personaliza desde el configurador, con componentes comprobados por SHA-256.
+
+CONFIGURADOR
+
+- Modos, gráficos, HD, perfiles por personaje, armas, cooperativo e idioma; se guarda conservando codificación y claves desconocidas, con copia previa. Ventana con desplazamiento para pantallas pequeñas y botón para importar una ISO de Xbox.
+- Lanzamiento (23/10):
+- Quitada la etiqueta «STX + GPU HD», que confundía; solo avisa si falta el pack HD.
+- Editor de controles: cambia cada acción con teclado o ratón (también los botones laterales), varias teclas por acción, aviso de duplicadas, ratón como stick derecho, sensibilidad y velocidad al andar.
+- Utilidades: perfiles de ajustes y controles con nombre, copias y restauración de partidas, comprobar instalación, informe de fallos en ZIP (sin datos personales), abrir carpetas, cerrar el configurador o dar prioridad alta al pulsar JUGAR, y restablecer ajustes o controles.
+- FPS: 30 (original), 60, 120, 165, 180 y 240. Todo lo que pasa de 30 es experimental, porque parte de la lógica del juego cuenta a 30. Para más de 60 hace falta un monitor de esa frecuencia o quitar la sincronización vertical. También se puede cambiar en el menú del juego.
+- Créditos, agradecimientos y redes con enlaces que se pueden pulsar.
+
+INSTALADOR
+
+- 23/10: instalador de dos opciones, inspirado en el de Hit & Run del autor:
+1. Añadir el pack HD y las mejoras a un port que ya funciona, sin tocar el ejecutable, GameData, partidas ni ajustes.
+2. Instalación nueva desde el ZIP o la carpeta del port v0.4.0 y tu propia ISO PAL o USA.
+- Comprueba región, manifiesto y hashes, guarda copia de lo que reemplaza y deja registro.
+- Lanzamiento:
+- Barra de progreso real (preparar el port, extraer la ISO, comprobar, copiar e instalar) con porcentaje y tiempo restante aproximado.
+- Ventana nueva con el nombre «Pack de Texturas HD y mejoras — by The128ReBits».
+- Los textos ya no se cortan con el escalado de Windows al 125 % o 150 %.
+- Créditos en cinco idiomas, con los enlaces de JediJosh, la comunidad y The128ReBits.
+- Compatibilidad con versiones futuras de JediJosh:
+- El instalador lee la versión del port del usuario.
+- Si no es una para la que se compiló el mod, avisa en cinco idiomas antes de tocar nada.
+- Solo cambia el core.dll de JediJosh si el usuario acepta, y siempre guarda copia.
+- Incluye el kit fuentes_nucleo/actualizar_jedijosh para rehacer los núcleos sobre una versión nueva. Probado: reconstruye las fuentes actuales de los dos núcleos sin una sola diferencia.
+
+PRUEBAS
+
+- Las pruebas aisladas del instalador pasan para PAL y NTSC-U: instalación nueva, actualización, restauración, ZIP inseguro e ISO no válida rechazados, y créditos en cinco idiomas.
+- El autor ha probado el juego con el instalador en PAL y NTSC-U, y con el mod ya puesto.
+- Los FPS por encima de 60 y el editor de controles necesitan su prueba en partida. Se recomienda jugar la historia a 30.
+- Pendientes conocidos: burbuja del droideka, daño del agarre del lanzallamas, embestida y apuntado del andador. No hay cobertura HD del 100 %.
+
+DOCUMENTACIÓN Y ACCESOS (23/10/2026)
+
+- Documentación de usuario en cinco idiomas, en Documentacion, como TXT UTF-8 con BOM y saltos CRLF; acceso corto LEEME_README.txt.
+- Comprobar instalación, Restaurar copia y Configurar juego instalado desde el instalador, sin reinstalar para configurar DLSS.
+- Retirados los cuatro accesos numerados de la raíz. Se conservan los accesos dentro del juego instalado.

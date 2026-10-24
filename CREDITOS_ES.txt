@@ -1,0 +1,109 @@
+﻿REVISION DE DISTRIBUCION 24/10/2026: se retiran los BMP externos del selector; se conserva el respaldo a recursos del disco propio cuando estan disponibles. La apariencia de algunas fichas espera revision en partida. LumeniteFX TRAA se obtiene opcionalmente desde su fuente oficial con SHA-256, no se incluye su copia. No hace falta para HD.
+
+PACK DE TEXTURAS HD Y MEJORAS — by The128ReBits
+
+Créditos y agradecimientos. Para SWROTS-PC v0.4.0 de jedijosh920 (JediJosh).
+
+GRACIAS, JEDIJOSH
+
+Un enorme agradecimiento a jedijosh920 (JediJosh), creador de SWROTS-PC, por llevar el juego de Xbox a PC y compartir su código, su investigación y sus herramientas con la comunidad. Su trabajo hace posible disfrutar del juego de forma nativa en Windows y crear nuevos packs y mejoras. Sigue y apoya su proyecto:
+
+GitHub: https://github.com/jedijosh920
+
+SWROTS-PC: https://github.com/jedijosh920/SWROTS-PC
+
+YouTube: https://www.youtube.com/jedijosh920
+
+Ko-fi: https://ko-fi.com/jedijosh920
+
+X: https://x.com/jedijosh920
+
+Steam: https://steamcommunity.com/id/jedijosh920
+
+EL TRABAJO DE JEDIJOSH EN SWROTS-PC
+
+- PORT NATIVO PARA WINDOWS: adaptación del núcleo, los gráficos y el sonido de Xbox a Windows, con Direct3D 9 y XAudio2; el código del juego se ejecuta de forma nativa.
+
+- GRÁFICOS Y CONTROLES DEL PORT: resolución interna ampliada, formato 16:9, pantalla completa y filtrado anisotrópico; teclado, ratón y mandos Xbox, DualShock 4 y DualSense con vibración.
+
+- YODA Y SITH YODA: Yoda jugable en versus con casilla propia, Sith Yoda con sable rojo para el segundo jugador y bloqueo con la animación de Yoda.
+
+- PERSONAJES Y DUELOS: selección de clase, traje, texturas y cuerpo para jugar la historia; carga de personajes de otros niveles, aparición de aliados o enemigos y movimientos de duelo fuera de los niveles de duelo.
+
+- COOPERATIVO ORIGINAL DEL PORT: dos jugadores en historia y misiones de bonificación, cámara compartida, incorporación con mando, reaparición de J2 y opción de que J2 controle al jefe o luche junto a J1.
+
+- CÁMARA LIBRE Y DEPURACIÓN: freecam, capturas con screenshot, consola del juego, unlockprofile y herramientas para consultar vida, Fuerza, IA, HUD y velocidad del tiempo.
+
+- BASE PARA MODDING: sustitución de recursos mediante archivos sueltos, volcado de recursos, guías y documentación de formatos y del motor, compartidos con la comunidad.
+
+- CORRECCIONES DEL PORT: sonido al arrancar, audio de los vídeos, estabilidad al cambiar o reiniciar misiones, vigilancia de bloqueos y registros para investigar fallos.
+
+SWROTS-PC v0.1.0 - v0.4.0: https://github.com/jedijosh920/SWROTS-PC/releases
+
+COMUNIDAD DE SWROTS-PC
+
+@anakinfan8 — pruebas en Mac, modding de armas y de música: https://github.com/anakinfan8
+
+@chatgipity — guía para Linux y consolas portátiles: https://github.com/chatgipity
+
+@QTG128 — el primer informe de fallo (el sonido al arrancar): https://github.com/QTG128
+
+Cxbx-Reloaded y sus colaboradores — investigación de Xbox y traducción de shaders: https://github.com/Cxbx-Reloaded/Cxbx-Reloaded
+
+Dear ImGui (Omar Cornut y colaboradores) — menú de depuración: https://github.com/ocornut/imgui
+
+THE128REBITS — AUTOR DEL PACK DE TEXTURAS HD Y MEJORAS
+
+El Pack de Texturas HD y todas las mejoras añadidas por este paquete son obra de The128ReBits. The128ReBits es el autor de todas las texturas HD y de las mejoras que se detallan a continuación:
+
+- TEXTURAS HD: todas las texturas HD son obra de The128ReBits. Es su pack HD original, el mismo de ModDB, a su resolución original y sin reducir: 2.338 texturas DDS cargadas en la tarjeta gráfica, válidas para los discos PAL y USA (2.908 variantes comprobadas), que se activan o desactivan sin perder nada.
+
+- Texturas volcadas a mano del juego y adaptadas al port, con índice por huella. Las 54 ilustraciones de carga vuelven a ser las originales del disco.
+
+- VERSIÓN PAL: núcleo PAL propio con las direcciones del ejecutable PAL verificadas, núcleo USA y elección automática según la huella del disco. Instalación desde tu propia ISO PAL o USA.
+
+- MULTILENGUAJE: menús del juego, fichas de personaje, configurador, instalador y créditos en español, inglés, francés, alemán e italiano.
+
+- PALPATINE: antes cerraba el juego al usarlo (su controlador de cinemática no sirve para jugar). Ahora Palpatine es jugable con sable o con bláster, también como J2, con su propio estilo y daño.
+
+- SELECTOR DE ARMA: Automático, Sable, Bláster o Nativa para cada personaje, con arma recomendada, estilo de combate y daño propios, en el juego y en el configurador.
+
+- CAMBIAR DE PERSONAJE CON EL MANDO: desde el menú de pausa del juego se abre el selector de personaje y se maneja con el mando; antes hacía falta el teclado. Sirve para J1 y J2.
+
+- 40 PERSONAJES PULIDOS: fichas con retratos , valoración (Completo, Acciones nativas, Experimental, Parcial, Curiosear), trajes con nombre, notas de controles y arma recomendada.
+
+- ACCIONES NATIVAS POR CLASE: superdroide (golpes, carga y disparo), zumbador (sierra, salto y agarre, rodar), volador (blásteres, cuchilla y escudo), andador (cañón y embestida), lanzallamas (fuego, esquiva y agarre), droideka (disparo y escudo), B1 y clones (disparo y empujón), garra, R2-D2 (sonda, celebrar y reparar) y C-3PO (repara y cura al compañero).
+
+- FALLOS CORREGIDOS: controles de ocho clases que no se instalaban, empujón y disparo del B1, pausa respetada por todas las acciones, muerte del droideka, menú Locura bloqueado y reinicios tras dos cambios de personaje (ahora hay caché por nivel).
+
+- JUGABILIDAD: modos Fiel y Locura explicados, reto Locura por personaje, vida equilibrada (bonos para zumbador, R2 y andador), ayuda de misión y cooperativo ampliado con selector, vida y escudo para J2.
+
+- GRÁFICOS: perfil gráfico ajustado, DLSS fácil (instalar, activar o quitar con un clic, componentes comprobados por SHA-256) y vuelta automática a Direct3D 9 si algo falla.
+
+- CONFIGURADOR: modos, gráficos, HD, perfiles por personaje, armas, J2, idioma, editor de controles, utilidades (perfiles, copias de partidas, comprobar instalación, informe de fallos), importar ISO de Xbox y 30/60/120/165/180/240 FPS (más de 30 es experimental).
+
+- INSTALADOR: dos opciones (añadir a un juego que ya funciona o instalación nueva desde tu ISO), barra de progreso, copia de lo que reemplaza, aviso si tu port es de otra versión y kit para adaptar el mod a futuras versiones de JediJosh.
+
+Sigue y apoya a the128rebits:
+
+ModDB: https://www.moddb.com/members/the128rebits/mods
+
+YouTube: https://www.youtube.com/@The128ReBits
+
+Ko-fi: https://ko-fi.com/the128rebits
+
+Patreon: https://www.patreon.com/The128ReBits
+
+Instagram: https://www.instagram.com/The128ReBits
+
+TikTok: https://www.tiktok.com/@the128rebits
+
+GameFront: https://www.gamefront.com/@the128rebits
+
+Linktree: https://linktr.ee/the128rebits
+
+JUEGO ORIGINAL Y TERCEROS
+
+El juego lo desarrolló The Collective y lo publicó LucasArts. Personajes, modelos, animaciones, sonidos y recursos originales son de sus titulares; Star Wars pertenece a sus propietarios. Se conservan los créditos y avisos originales.
+
+La integración gráfica opcional usa dgVoodoo2, ReShade, DLSS5-Feeder, RenoDX, LumeniteFX y runtimes NVIDIA; el runtime neuronal Lecram es una compilación de la comunidad. Cada componente conserva su autoría y licencia. Fuentes de los retratos en portraits/FUENTES.txt; avisos y licencia del port en THIRD_PARTY_NOTICES_SWROTS.txt y LICENSE_SWROTS.txt.
