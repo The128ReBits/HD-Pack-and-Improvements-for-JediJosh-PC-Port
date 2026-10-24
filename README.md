@@ -1,4 +1,4 @@
-<p align="center"><img src="logo.png" width="112" alt="The128ReBits"></p>
+![Revenge of the Sith — HD Texture Pack & Improvements by The128ReBits, for JediJosh’s PC port](https://media.moddb.com/images/mods/1/74/73782/banner_articulo.png)
 
 # HD Texture Pack & Improvements for JediJosh’s PC Port
 
@@ -6,9 +6,9 @@
 
 **Native Windows port by [JediJosh](https://github.com/jedijosh920/SWROTS-PC). HD texture pack and added improvements by The128ReBits.**
 
-[Español](README_ES.md) · [Free download](../../releases/latest) · [Installation guide](GUIDE_EN.txt) · [Full credits](CREDITS_EN.txt) · [Complete feature catalogue](FEATURES.md)
+[Español aquí abajo](#español) · [Documentación completa en español](README_ES.md) · [Free download](../../releases/latest) · [Installation guide](GUIDE_EN.txt) · [Full credits](CREDITS_EN.txt) · [Complete feature catalogue](FEATURES.md)
 
-Return to the Xbox game on PC with **2,338 HD textures, five text languages, revised playable characters, controller character selection from pause for P1/P2, expanded co-op options and my own configurator and installer**.
+Return to the Xbox game on PC with **2,338 HD textures, five text languages, revised playable characters, controller character selection from pause for P1/P2, expanded co-op options, optional experimental DLSS 5 with easy setup, and my own configurator and installer**.
 
 ## What The128ReBits adds
 
@@ -23,6 +23,7 @@ Return to the Xbox game on PC with **2,338 HD textures, five text languages, rev
 | Gameplay | Faithful and Madness modes, per-character challenges, balanced health/damage/defence and mission help |
 | Co-op additions | Character selection and profiles, balanced health and P2 shield, building on JediJosh’s existing two-player co-op |
 | Configurator | Separate window for graphics, HD, modes, characters, weapons, P2 and language; keyboard/mouse editor, side buttons, multiple bindings and duplicate warnings |
+| Optional DLSS 5 | Experimental community integration; automatic downloads, verified components, install/enable/disable controls and quality settings |
 | Utilities | Named settings/control profiles, save backups/restoration, installation checks, bug reports, folder access and launch preferences |
 | Installer | Add to a working port or prepare a fresh installation from your port ZIP/folder and own Xbox ISO; progress, regional checks and backups |
 
@@ -40,12 +41,18 @@ Open [Releases](../../releases/latest) and download **Pack_Texturas_HD_y_mejoras
 
 You need **[JediJosh’s PC port v0.4.0](https://github.com/jedijosh920/SWROTS-PC/releases/tag/v0.4.0)**, your **own recognised PAL/USA Xbox game**, and Windows compatible with the port. The game, ISO and original port files are not included. This is the native JediJosh’s PC port edition; the PS2/PCSX2 pack is a separate download and is not required.
 
-Extract the **complete ZIP** and open **Instalar Pack HD y mejoras.exe**.
+Download the ZIP and extract all its contents into a folder on your PC. Open that folder and run **Instalar Pack HD y mejoras.exe**. You can select English in the installer’s language menu.
 
 1. **Already working:** choose the first option and select your installed game folder. The installer backs up replaced files and preserves your executable, game data, saves and settings.
 2. **Fresh installation:** choose the second option, provide JediJosh’s v0.4.0 port ZIP/extracted folder and your supported Xbox ISO/XISO, then choose a new or empty destination. HD is included.
 
 Open the configurator afterwards to choose language, mode and preferences. The installer does not automatically start the game. Optional third-party graphics downloads are managed by the assistant; DLSS is not required for HD.
+
+## Optional DLSS 5: easy setup
+
+Open **Configurator → Installation and DLSS...**, leave automatic downloading enabled and press **Install and enable DLSS**. The assistant downloads missing components and checks their SHA-256 hashes. It can also reuse a complete local component folder. Restart the game afterwards. **High quality (77%)** is a starting point; you can customise or disable the integration from the same assistant.
+
+You can request this optional download during the main installation too. The HD textures work independently of DLSS. This is an **experimental community integration**, using dgVoodoo2, ReShade, DLSS5-Feeder, RenoDX, LumeniteFX and NVIDIA runtimes, including the Lecram community build. The game integration, profile and setup tools are my work; the components retain their authorship. GPU results depend on the system, and file checks alone do not confirm active processing.
 
 ## Compatibility and known issues
 
@@ -64,3 +71,36 @@ Original game by **The Collective and LucasArts**. Original game resources and t
 For bugs, use **Configurator → Utilities → Create bug report**, review it, and include region, mission, character and reproduction steps in [Issues](../../issues).
 
 The finished pack is **free**. Optional support: [Ko-fi](https://ko-fi.com/the128rebits) · [Patreon](https://www.patreon.com/The128ReBits) · [All links](https://linktr.ee/the128rebits).
+
+---
+
+## Español
+
+**Port nativo de [JediJosh](https://github.com/jedijosh920/SWROTS-PC). Pack de Texturas HD y mejoras de The128ReBits.**
+
+He adaptado mi pack HD al port de PC y trabajado en los personajes, sus controles y la configuración. Incluye **2.338 texturas HD**, soporte PAL/USA, cinco idiomas de texto y selección con mando desde la pausa para **J1 y J2**. Las voces permanecen en inglés.
+
+Las 40 fichas reúnen personajes, clases y variantes con notas, valoraciones y armas recomendadas. Entre las revisiones hay ataques del superdroide, acciones y resistencia del zumbador, cañón del andador, reparación de R2-D2/C-3PO y controles para otras clases. **Fiel** permite revivir la aventura original; **Locura**, experimentar con el reparto. El configurador reúne gráficos, controles, perfiles, idiomas y opciones cooperativas en una ventana propia.
+
+### Descargar e instalar
+
+1. Entra en [la descarga gratuita](https://github.com/The128ReBits/HD-Pack-and-Improvements-for-JediJosh-PC-Port/releases/tag/hd-pack-launch-swrots-v0.4.0) y elige **Pack_Texturas_HD_y_mejoras_by_The128ReBits_PAL-USA_SWROTS-PC_v0.4.0.zip**.
+2. Extrae todo su contenido en una carpeta de tu PC.
+3. Abre esa carpeta y ejecuta **Instalar Pack HD y mejoras.exe**.
+4. Si ya tienes el port funcionando, selecciona su carpeta. Para una instalación nueva, aporta el port v0.4.0 de JediJosh como ZIP/carpeta, tu ISO/XISO de Xbox PAL/USA reconocida y un destino nuevo o vacío.
+
+Las texturas HD ya van incluidas. El juego, la ISO y el port original se aportan por separado. Los enlaces automáticos «Source code» son el código del repositorio; el instalador está en el ZIP para jugadores con el nombre indicado arriba.
+
+### DLSS 5 opcional y experimental
+
+En el configurador, abre **Instalación y DLSS...**, deja marcada la descarga automática y pulsa **Instalar y activar DLSS**. El asistente obtiene los componentes que faltan y verifica sus huellas; también admite una carpeta local completa. Reinicia el juego después. Puedes empezar con **Calidad alta (77 %)** y personalizar o desactivar DLSS desde el mismo asistente. También puedes solicitarlo al instalar el pack.
+
+Es una integración comunitaria con componentes de terceros, incluida la compilación de Lecram. Mi aportación es la integración, el perfil y las herramientas de instalación. El resultado depende del equipo y **HD funciona también sin DLSS**.
+
+### Gracias, JediJosh
+
+Su port nativo, gráficos, sonido, controles, resolución ampliada, panorámico, Yoda/Sith Yoda, herramientas de personajes, duelos, cooperativo original, cámara libre y base para modding hacen posible este pack. Gracias por compartir el código, las herramientas y la investigación con la comunidad. Las texturas HD y las mejoras añadidas por este paquete son de **The128ReBits**; el juego original es de The Collective y LucasArts.
+
+**30 FPS recomendados para historia; superiores experimentales.** La cobertura HD es parcial y las capacidades varían por personaje. Consulta las limitaciones de droideka, lanzallamas y andador antes de jugar. Esta revisión del empaquetado no recibió una nueva partida completa ni validación en GPU.
+
+[README completo en español](README_ES.md) · [Guía de instalación](GUIA_ES.txt) · [Cambios y mejoras](CAMBIOS_ES.txt) · [Créditos](CREDITOS_ES.txt) · [Descargar en ModDB](https://www.moddb.com/mods/revenge-of-the-sith-hd-pack-for-jedijoshs-pc-port/downloads/revenge-of-the-sith-hd-pack-pc-pal-usa)

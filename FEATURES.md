@@ -2,6 +2,8 @@
 
 **Revenge of the Sith · by The128ReBits**
 
+[Cambios y documentación en español](CAMBIOS_ES.txt) · [README español](README_ES.md)
+
 This catalogue documents the pack’s additions from the installer/configurator credits, final changelog and source materials. The native PC port and its original features are credited separately below.
 
 ## HD textures and visual identity
@@ -99,9 +101,10 @@ This catalogue documents the pack’s additions from the installer/configurator 
 - Installation checking, backup restoration and configurator access from the installer. Restoration refuses files changed by the user since installation.
 - Warnings and backup before replacing another port version with this v0.4.0-based core. The installer does not automatically launch the game.
 
-## Optional graphics integration and easy management
+## Optional experimental DLSS 5 and easy management
 
-- A graphics profile and assistant for installing/enabling, disabling and customising an optional third-party graphics chain, with SHA-256 checks and fallback to Direct3D 9 if the bridge fails.
+- Optional experimental DLSS 5 community integration, with automatic downloads of missing components. Open Configurator → Installation and DLSS... → Install and enable DLSS, then restart the game. The installer can request it during setup too.
+- Reuse local components, disable DLSS or customise its settings from the assistant. SHA-256 checks verify downloads, and the bridge can fall back to Direct3D 9 if loading fails. File checks do not certify active GPU processing.
 - The chain uses components by dgVoodoo2, ReShade, DLSS5-Feeder, RenoDX, LumeniteFX, NVIDIA runtime authors and the Lecram community build. Their technologies are not developed by The128ReBits.
 - Restricted TRAA and iMMERSE files are obtained from official pinned sources rather than redistributed in the ZIP. Optional graphics are not required for the HD textures.
 
