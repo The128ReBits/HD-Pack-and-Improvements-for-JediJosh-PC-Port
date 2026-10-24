@@ -1,6 +1,6 @@
 <p align="center"><img src="logo.png" width="112" alt="The128ReBits"></p>
 
-# La venganza de los Sith — Pack de Texturas HD y mejoras
+# Revenge of the Sith — HD Texture Pack & Improvements
 
 **Port nativo para Windows de [JediJosh](https://github.com/jedijosh920/SWROTS-PC). Pack de Texturas HD y mejoras añadidas de The128ReBits.**
 

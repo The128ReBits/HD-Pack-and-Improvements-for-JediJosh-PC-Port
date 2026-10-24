@@ -1,10 +1,12 @@
 <p align="center"><img src="logo.png" width="112" alt="The128ReBits"></p>
 
-# Revenge of the Sith — HD Texture Pack & Improvements
+# HD Texture Pack & Improvements for JediJosh’s PC Port
+
+**Revenge of the Sith · by The128ReBits**
 
 **Native Windows port by [JediJosh](https://github.com/jedijosh920/SWROTS-PC). HD texture pack and added improvements by The128ReBits.**
 
-[Español](README_ES.md) · [Free download](../../releases/latest) · [Installation guide](GUIDE_EN.txt) · [Full credits](CREDITS_EN.txt)
+[Español](README_ES.md) · [Free download](../../releases/latest) · [Installation guide](GUIDE_EN.txt) · [Full credits](CREDITS_EN.txt) · [Complete feature catalogue](FEATURES.md)
 
 Return to the Xbox game on PC with **2,338 HD textures, five text languages, revised playable characters, controller character selection from pause for P1/P2, expanded co-op options and my own configurator and installer**.
 
