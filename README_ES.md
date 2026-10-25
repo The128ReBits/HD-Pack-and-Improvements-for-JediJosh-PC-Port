@@ -1,6 +1,10 @@
-![Pack de Texturas HD y mejoras de The128ReBits para el port de JediJosh](https://media.moddb.com/images/mods/1/74/73782/banner_articulo.png)
+![Ilustración promocional: cinco idiomas de texto, voces en inglés e instalador propio](https://media.moddb.com/images/articles/1/354/353001/Sith_Languages_Config_ES.png)
 
-# Revenge of the Sith — HD Texture Pack & Improvements
+*Ilustración promocional; las voces permanecen en inglés.*
+
+# Star Wars: Episode III — Revenge of the Sith
+
+## Pack de texturas HD y mejoras para el port de PC de JediJosh
 
 **Port nativo para Windows de [JediJosh](https://github.com/jedijosh920/SWROTS-PC). Pack de Texturas HD y mejoras añadidas de The128ReBits.**
 
@@ -32,7 +36,7 @@ El Pack de Texturas HD y todas las mejoras añadidas por este paquete son obra d
 
 En [Releases](../../releases/latest), descarga **Pack_Texturas_HD_y_mejoras_by_The128ReBits_PAL-USA_SWROTS-PC_v0.4.0.zip**. Los archivos automáticos «Source code» son fuentes, no el instalador para jugar.
 
-Necesitas [el port de PC de JediJosh v0.4.0](https://github.com/jedijosh920/SWROTS-PC/releases/tag/v0.4.0) y tu juego **Xbox PAL/USA reconocido**. El juego, la ISO y los archivos originales del port no están incluidos. El pack PS2/PCSX2 tiene otra instalación y no hace falta para esta edición.
+Necesitas [el port de PC de JediJosh v0.4.0](https://github.com/jedijosh920/SWROTS-PC/releases/tag/v0.4.0) y tu juego **Xbox PAL/USA reconocido**. El juego, la ISO y los archivos originales del port no están incluidos. Las texturas HD para esta edición ya van incluidas y recomiendo dejarlas activadas. No necesitas otra descarga de texturas. Mi [pack independiente para PS2/PCSX2](https://www.moddb.com/mods/star-wars-episode-iii-revenge-of-the-sith-hd-texture-pack-for-pcsx2/downloads/revenge-of-the-sith-hd-texture-pack-pcsx2-pal-usa-region-guide) corresponde a la versión emulada de PS2 y utiliza otra instalación.
 
 Descarga el ZIP y extrae todo su contenido en una carpeta de tu PC. Abre esa carpeta y ejecuta **Instalar Pack HD y mejoras.exe**:
 
@@ -69,4 +73,7 @@ Para fallos: **Configurador → Utilidades → Crear informe de fallos**. Revís
 
 Juego original de The Collective y LucasArts; recursos y marcas conservan sus titulares. Cada componente mantiene su licencia y autoría.
 
-Pack final gratuito. Apoyo voluntario: [Ko-fi](https://ko-fi.com/the128rebits) · [Patreon](https://www.patreon.com/The128ReBits). [Apoya también a JediJosh](https://ko-fi.com/jedijosh920).
+### Sigue el proyecto
+
+El pack es gratuito. Puedes ver partidas y novedades en [YouTube](https://www.youtube.com/@The128ReBits). Apoyo voluntario: [Ko-fi](https://ko-fi.com/the128rebits) · [Patreon](https://www.patreon.com/The128ReBits). [Apoya también a JediJosh](https://ko-fi.com/jedijosh920).
+
