@@ -1,6 +1,10 @@
-![Revenge of the Sith — HD Texture Pack & Improvements by The128ReBits, for JediJosh’s PC port](https://media.moddb.com/images/mods/1/74/73782/banner_articulo.png)
+![Star Wars: Episode III — Revenge of the Sith. Promotional artwork for the HD pack and gameplay improvements.](https://media.moddb.com/images/mods/1/74/73782/Sith_Cinematic_Cover_EN.png)
 
-# HD Texture Pack & Improvements for JediJosh’s PC Port
+*Promotional illustration; the screenshots and explanatory images below show the actual project.*
+
+# Star Wars: Episode III — Revenge of the Sith
+
+## HD Textures & Gameplay Improvements for JediJosh’s PC Port
 
 **Revenge of the Sith · by The128ReBits**
 
@@ -39,7 +43,7 @@ JediJosh created **JediJosh’s PC port**, the native Windows port: graphics and
 
 Open [Releases](../../releases/latest) and download **Pack_Texturas_HD_y_mejoras_by_The128ReBits_PAL-USA_SWROTS-PC_v0.4.0.zip**. The automatic “Source code” archives are not the player installer.
 
-You need **[JediJosh’s PC port v0.4.0](https://github.com/jedijosh920/SWROTS-PC/releases/tag/v0.4.0)**, your **own recognised PAL/USA Xbox game**, and Windows compatible with the port. The game, ISO and original port files are not included. This is the native JediJosh’s PC port edition; the PS2/PCSX2 pack is a separate download and is not required.
+You need **[JediJosh’s PC port v0.4.0](https://github.com/jedijosh920/SWROTS-PC/releases/tag/v0.4.0)**, your **own recognised PAL/USA Xbox game**, and Windows compatible with the port. The game, ISO and original port files are not included. The HD textures for this native PC-port edition are already included; I recommend leaving them enabled. No extra texture download is needed. My [separate PS2/PCSX2 pack](https://www.moddb.com/mods/star-wars-episode-iii-revenge-of-the-sith-hd-texture-pack-for-pcsx2/downloads/revenge-of-the-sith-hd-texture-pack-pcsx2-pal-usa-region-guide) is for the emulated PS2 game and uses its own installation.
 
 Download the ZIP and extract all its contents into a folder on your PC. Open that folder and run **Instalar Pack HD y mejoras.exe**. You can select English in the installer’s language menu.
 
@@ -70,7 +74,9 @@ Original game by **The Collective and LucasArts**. Original game resources and t
 
 For bugs, use **Configurator → Utilities → Create bug report**, review it, and include region, mission, character and reproduction steps in [Issues](../../issues).
 
-The finished pack is **free**. Optional support: [Ko-fi](https://ko-fi.com/the128rebits) · [Patreon](https://www.patreon.com/The128ReBits) · [All links](https://linktr.ee/the128rebits).
+## Follow and support
+
+The finished pack is **free**. Watch gameplay and updates on [YouTube](https://www.youtube.com/@The128ReBits). If you would like to support my work: [Ko-fi](https://ko-fi.com/the128rebits) · [Patreon](https://www.patreon.com/The128ReBits). Support is optional. [All links](https://linktr.ee/the128rebits).
 
 ---
 
@@ -104,3 +110,9 @@ Su port nativo, gráficos, sonido, controles, resolución ampliada, panorámico,
 **30 FPS recomendados para historia; superiores experimentales.** La cobertura HD es parcial y las capacidades varían por personaje. Consulta las limitaciones de droideka, lanzallamas y andador antes de jugar. Esta revisión del empaquetado no recibió una nueva partida completa ni validación en GPU.
 
 [README completo en español](README_ES.md) · [Guía de instalación](GUIA_ES.txt) · [Cambios y mejoras](CAMBIOS_ES.txt) · [Créditos](CREDITOS_ES.txt) · [Descargar en ModDB](https://www.moddb.com/mods/revenge-of-the-sith-hd-pack-for-jedijoshs-pc-port/downloads/revenge-of-the-sith-hd-pack-pc-pal-usa)
+
+
+### Sigue el proyecto
+
+El pack es gratuito. [YouTube: partidas y novedades](https://www.youtube.com/@The128ReBits) · [Ko-fi](https://ko-fi.com/the128rebits) · [Patreon](https://www.patreon.com/The128ReBits). El apoyo es voluntario.
+
