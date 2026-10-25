@@ -1,4 +1,4 @@
-![Star Wars: Episode III — Revenge of the Sith. Promotional artwork for the HD pack and gameplay improvements.](https://media.moddb.com/images/mods/1/74/73782/Sith_Cinematic_Cover_EN.png)
+![Star Wars: Episode III — Revenge of the Sith. Promotional artwork for the HD pack and gameplay improvements.](https://media.moddb.com/images/mods/1/74/73782/Sith_HD_Improvements_Final_EN.png)
 
 *Promotional illustration; the screenshots and explanatory images below show the actual project.*
 
@@ -14,6 +14,8 @@
 
 Return to the Xbox game on PC with **2,338 HD textures, five text languages, revised playable characters, controller character selection from pause for P1/P2, expanded co-op options, optional experimental DLSS 5 with easy setup, and my own configurator and installer**.
 
+![Feature overview — real port capture and explanatory labels](https://media.moddb.com/images/mods/1/74/73782/banner_articulo.png)
+
 ## What The128ReBits adds
 
 | Area | Included in this pack |
@@ -23,7 +25,7 @@ Return to the Xbox game on PC with **2,338 HD textures, five text languages, rev
 | PAL and USA | Separate regional cores and automatic selection for recognised Xbox discs |
 | Characters | 40 rated entries covering characters, classes and variants; revised controls and native actions, notes, outfits and recommended weapons |
 | Weapons | Automatic, Saber, Blaster or Native profiles, with per-character style and damage settings |
-| In-game selection | Controller-friendly character selection from the pause menu for P1 and P2; per-level character cache |
+| In-game selection | Improved controller-friendly pause-menu selector, character cards and portraits, P1/P2 choices and per-level character cache |
 | Gameplay | Faithful and Madness modes, per-character challenges, balanced health/damage/defence and mission help |
 | Co-op additions | Character selection and profiles, balanced health and P2 shield, building on JediJosh’s existing two-player co-op |
 | Configurator | Separate window for graphics, HD, modes, characters, weapons, P2 and language; keyboard/mouse editor, side buttons, multiple bindings and duplicate warnings |
