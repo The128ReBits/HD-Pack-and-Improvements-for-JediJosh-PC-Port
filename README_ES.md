@@ -4,6 +4,10 @@
 
 **Current update / Actualización actual: SWROTS-PC v0.5.0 · rev20261026d · Xbox USA / NTSC-U only**
 
+**Five text languages are retained:** play with text in **Spanish, English, French, German and Italian**. Voices remain in English. Some parts of the installer and importer are still in Spanish.
+
+**Se mantiene el multilenguaje:** puedes jugar con textos en **español, inglés, francés, alemán e italiano**. Las voces siguen en inglés. Algunas partes del instalador y del importador todavía están en español.
+
 [Download player pack, corresponding sources and checksums / Descargar pack, fuentes y comprobantes](https://github.com/The128ReBits/HD-Pack-and-Improvements-for-JediJosh-PC-Port/releases/tag/hd-pack-swrots-v0.5.0-rev20261026d) · [Full update notes / Notas completas](UPDATE_v0.5.0.md)
 
 ## English — what changed

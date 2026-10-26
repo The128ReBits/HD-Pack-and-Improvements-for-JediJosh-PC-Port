@@ -8,7 +8,9 @@
 
 Había publicado mi pack hacía apenas unos días cuando llegó v0.5.0. Las novedades de JediJosh me animaron a adaptar mis mejoras a última hora: ¡os recomiendo experimentar con su trabajo!
 
-¡Actualizo mi pack para la v0.5.0 de [SWROTS-PC, de jedijosh920](https://github.com/jedijosh920/SWROTS-PC)! Es una adaptación del mismo pack y una modificación independiente, sin carácter oficial ni colaboración oficial con el autor del port.
+Actualizo mi pack para la v0.5.0 de [SWROTS-PC, de jedijosh920](https://github.com/jedijosh920/SWROTS-PC)! Es una adaptación del mismo pack y una modificación independiente, sin carácter oficial ni colaboración oficial con el autor del port.
+
+**Se mantiene el multilenguaje:** puedes jugar con textos en **español, inglés, francés, alemán e italiano**. Las voces siguen en inglés. Algunas partes del instalador y del importador todavía están en español.
 
 ### Lo nuevo de JediJosh
 
@@ -72,6 +74,8 @@ Gracias a jedijosh920 por el port; a Cxbx-Reloaded, Dear ImGui y los autores de 
 My pack had only been out a few days when v0.5.0 arrived. JediJosh’s additions made a last-minute adaptation worthwhile: I recommend experimenting with his work!
 
 I am updating my pack for v0.5.0 of [jedijosh920’s SWROTS-PC](https://github.com/jedijosh920/SWROTS-PC)! This adapts the same pack and is an independent modification, with no official status or official collaboration with the port’s author.
+
+**Five text languages are retained:** play with text in **Spanish, English, French, German and Italian**. Voices remain in English. Some parts of the installer and importer are still in Spanish.
 
 ### What JediJosh added
 

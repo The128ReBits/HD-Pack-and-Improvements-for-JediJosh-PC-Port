@@ -1,6 +1,10 @@
 # Pack de Texturas HD y mejoras — by The128ReBits
 
-SWROTS-PC v0.5.0 de jedijosh920 · rev20261026d · Borrador ES/EN.
+SWROTS-PC v0.5.0 de jedijosh920 · rev20261026d · ES/EN.
+
+**Five text languages are retained:** play with text in **Spanish, English, French, German and Italian**. Voices remain in English. Some parts of the installer and importer are still in Spanish.
+
+**Se mantiene el multilenguaje:** puedes jugar con textos en **español, inglés, francés, alemán e italiano**. Las voces siguen en inglés. Algunas partes del instalador y del importador todavía están en español.
 
 ## Español — funciones y cambios por revisión
 
