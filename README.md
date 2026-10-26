@@ -1,4 +1,4 @@
-![Promotional illustration / Ilustración promocional](https://media.moddb.com/images/mods/1/74/73782/Sith_HD_Improvements_Final_EN.png)
+![SWROTS-PC v0.5.0 — Battlefront, Heroes vs Villains and extra campaign characters. Promotional illustration.](https://github.com/user-attachments/assets/2b2db709-d366-464e-92a2-be548ef34a1b)
 
 # Pack de Texturas HD y mejoras — by The128ReBits
 
