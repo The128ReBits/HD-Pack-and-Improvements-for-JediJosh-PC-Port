@@ -1,3 +1,45 @@
+![Promotional illustration / Ilustración promocional](https://media.moddb.com/images/mods/1/74/73782/Sith_HD_Improvements_Final_EN.png)
+
+# Pack de Texturas HD y mejoras — by The128ReBits
+
+**Current update / Actualización actual: SWROTS-PC v0.5.0 · rev20261026d · Xbox USA / NTSC-U only**
+
+[Download player pack, corresponding sources and checksums / Descargar pack, fuentes y comprobantes](https://github.com/The128ReBits/HD-Pack-and-Improvements-for-JediJosh-PC-Port/releases/tag/hd-pack-swrots-v0.5.0-rev20261026d) · [Full update notes / Notas completas](UPDATE_v0.5.0.md)
+
+## English — what changed
+
+JediJosh’s new modes and characters made it worth adapting my pack just days after its release. His v0.5.0 adds Heroes vs Villains up to 5v5, Battlefront conquest, Commander Cody, Droid Commander, and custom characters/maps. Credit for those additions belongs to JediJosh. My work adapts my HD textures, gameplay improvements, selector, configurator and installer to his port.
+
+- 2,338 HD DDS textures at their original pack resolutions; 40 character entries, weapon settings, P1/P2 selection and Faithful/Madness modes.
+- **The pack’s existing 40 characters can be switched during gameplay through my pause-menu selector, introduced for v0.4.0.** The extra Jedi Modpack characters and JediJosh’s two new fighters can also be used in campaign, but selecting them restarts the current level.
+- [Jedi Modpack v1.0](https://github.com/jedijosh920/SWROTS-PC/discussions/56) is a separate optional download from its author, with Darth Maul, Darth Revan, Revan, Luke Skywalker and five maps. It is not bundled.
+- Rev d offers individual optional mod selection during both installation paths. The base installs first; selected modules follow.
+- Five pack text languages, with parts of installation/importing still in Spanish. English voices. Optional DLSS integration; HD also works without it.
+
+Extract the player ZIP and run **Instalar Pack HD y mejoras.exe**. Choose an existing game or a fresh installation using [JediJosh’s v0.5.0 port](https://github.com/jedijosh920/SWROTS-PC/releases/tag/v0.5.0) and data from your own Xbox USA disc. This revision accepts XBE MD5 `6460ef37862de3af364a0563a0a18c4e`; PAL and unknown discs are rejected. The game, ISO, XBE, GameData and Jedi Modpack are not included. Sources for this revision are in the separate **FUENTES_Y_EVIDENCIAS** release asset.
+
+**Demonstrated:** gameplay tested by The128ReBits; separate technical checks recorded 36 PASS for optional installation, 31 for importing and 10 for credits. **Fixed:** reproduced DLSS_REPARSE_POINT cause (b), specific PAL credit claims (c); optional mod selection during installation added in d. **Pending:** Hoth/C0000005 remain open; specific installer/DLSS/symlink checks and redistribution license confirmation for `dlss_base` remain pending. See the full notes for all limits.
+
+## Español — novedades y descarga
+
+Las novedades de JediJosh me animaron a adaptar mis mejoras a última hora, apenas unos días después de publicar el pack. **El mérito de HvV hasta 5v5, Battlefront, Cody, Droid Commander y los personajes y mapas personalizados es suyo.** Mi aportación es adaptar mis texturas HD, mejoras, selector, configurador e instalador a su port.
+
+**Los 40 personajes que ya tenía el pack se pueden cambiar en plena partida desde mi selector de pausa, incorporado para v0.4.0.** Los personajes extra del Jedi Modpack y los dos nuevos de JediJosh también pueden utilizarse en campaña, pero elegirlos en el selector reinicia el nivel actual.
+
+Descarga el ZIP del jugador, extrae todo y abre **Instalar Pack HD y mejoras.exe**. HD ya está incluido. Rev d permite elegir los módulos opcionales durante la instalación nueva o al añadir el pack a un juego existente; el Jedi Modpack se descarga aparte desde su autor. Esta revisión es **solo NTSC-U** para mantener una base común de desarrollo. No incluye juego, ISO, XBE, GameData ni Jedi Modpack. Los textos del pack están en cinco idiomas, con partes del instalador/importador aún en español; voces en inglés.
+
+**Demostrado:** probado en partida por The128ReBits; 36/31/10 PASS técnicos por separado. **Corregido:** causa reproducida de DLSS_REPARSE_POINT (b) y créditos concretos PAL (c); d añade la selección de opcionales durante la instalación. **Pendiente:** Hoth/C0000005, comprobaciones específicas del instalador/DLSS/symlink y confirmación de licencias de `dlss_base`; detalles en las notas completas.
+
+All HD textures and creative direction / Todas las texturas HD y dirección creativa: **The128ReBits**. Port and original co-op / Port y cooperativo original: **jedijosh920**. Thanks / Gracias: Cxbx-Reloaded, Dear ImGui and the graphics component and external mod authors. Claude and Codex provided technical assistance under The128ReBits’ direction and review. Independent modification; no official collaboration / Modificación independiente, sin colaboración oficial.
+
+[YouTube](https://www.youtube.com/@The128ReBits) · [Ko-fi](https://ko-fi.com/the128rebits) · [Patreon](https://www.patreon.com/The128ReBits) · [Support JediJosh / Apoyar a JediJosh](https://ko-fi.com/jedijosh920)
+
+
+<details>
+<summary>Historical v0.4.0 documentation / Documentación histórica v0.4.0 (PAL/USA)</summary>
+
+The following describes the earlier release only. / Lo siguiente describe únicamente la entrega anterior.
+
 ![Star Wars: Episode III — Revenge of the Sith. Promotional artwork for the HD pack and gameplay improvements.](https://media.moddb.com/images/mods/1/74/73782/Sith_HD_Improvements_Final_EN.png)
 
 *Promotional illustration; the screenshots and explanatory images below show the actual project.*
@@ -118,3 +160,7 @@ Su port nativo, gráficos, sonido, controles, resolución ampliada, panorámico,
 
 El pack es gratuito. [YouTube: partidas y novedades](https://www.youtube.com/@The128ReBits) · [Ko-fi](https://ko-fi.com/the128rebits) · [Patreon](https://www.patreon.com/The128ReBits). El apoyo es voluntario.
 
+
+
+
+</details>
