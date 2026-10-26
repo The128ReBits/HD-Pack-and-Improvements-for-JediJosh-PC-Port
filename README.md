@@ -22,7 +22,7 @@ JediJosh’s new modes and characters made it worth adapting my pack just days a
 
 Extract the player ZIP and run **Instalar Pack HD y mejoras.exe**. Choose an existing game or a fresh installation using [JediJosh’s v0.5.0 port](https://github.com/jedijosh920/SWROTS-PC/releases/tag/v0.5.0) and data from your own Xbox USA disc. This revision accepts XBE MD5 `6460ef37862de3af364a0563a0a18c4e`; PAL and unknown discs are rejected. The game, ISO, XBE, GameData and Jedi Modpack are not included. Sources for this revision are in the separate **FUENTES_Y_EVIDENCIAS** release asset.
 
-**Demonstrated:** gameplay tested by The128ReBits; separate technical checks recorded 36 PASS for optional installation, 31 for importing and 10 for credits. **Fixed:** reproduced DLSS_REPARSE_POINT cause (b), specific PAL credit claims (c); optional mod selection during installation added in d. **Pending:** Hoth/C0000005 remain open; specific installer/DLSS/symlink checks and redistribution license confirmation for `dlss_base` remain pending. See the full notes for all limits.
+**Demonstrated:** gameplay tested by The128ReBits; separate technical checks recorded 36 PASS for optional installation, 31 for importing and 10 for credits. **Fixed:** reproduced DLSS_REPARSE_POINT cause (b), specific PAL credit claims (c); optional mod selection during installation added in d. **Pending:** Specific installer/DLSS/symlink checks and redistribution license confirmation for `dlss_base` remain pending. See the full notes for all limits.
 
 ## Español — novedades y descarga
 
@@ -32,11 +32,24 @@ Las novedades de JediJosh me animaron a adaptar mis mejoras a última hora, apen
 
 Descarga el ZIP del jugador, extrae todo y abre **Instalar Pack HD y mejoras.exe**. HD ya está incluido. Rev d permite elegir los módulos opcionales durante la instalación nueva o al añadir el pack a un juego existente; el Jedi Modpack se descarga aparte desde su autor. Esta revisión es **solo NTSC-U** para mantener una base común de desarrollo. No incluye juego, ISO, XBE, GameData ni Jedi Modpack. Los textos del pack están en cinco idiomas, con partes del instalador/importador aún en español; voces en inglés.
 
-**Demostrado:** probado en partida por The128ReBits; 36/31/10 PASS técnicos por separado. **Corregido:** causa reproducida de DLSS_REPARSE_POINT (b) y créditos concretos PAL (c); d añade la selección de opcionales durante la instalación. **Pendiente:** Hoth/C0000005, comprobaciones específicas del instalador/DLSS/symlink y confirmación de licencias de `dlss_base`; detalles en las notas completas.
+**Demostrado:** probado en partida por The128ReBits; 36/31/10 PASS técnicos por separado. **Corregido:** causa reproducida de DLSS_REPARSE_POINT (b) y créditos concretos PAL (c); d añade la selección de opcionales durante la instalación. **Pendiente:** Comprobaciones específicas del instalador/DLSS/symlink y confirmación de licencias de `dlss_base`; detalles en las notas completas.
 
 All HD textures and creative direction / Todas las texturas HD y dirección creativa: **The128ReBits**. Port and original co-op / Port y cooperativo original: **jedijosh920**. Thanks / Gracias: Cxbx-Reloaded, Dear ImGui and the graphics component and external mod authors. Claude and Codex provided technical assistance under The128ReBits’ direction and review. Independent modification; no official collaboration / Modificación independiente, sin colaboración oficial.
 
 [YouTube](https://www.youtube.com/@The128ReBits) · [Ko-fi](https://ko-fi.com/the128rebits) · [Patreon](https://www.patreon.com/The128ReBits) · [Support JediJosh / Apoyar a JediJosh](https://ko-fi.com/jedijosh920)
+
+
+### Weapons and each character’s own actions
+
+**Most compatible humanoids can use a blaster or lightsaber.** The selector offers Automatic, Saber, Blaster and Native, with individual character profiles and P1/P2 settings.
+
+For droids and other special bodies, I revised controls and native attacks: the super battle droid’s wrist blaster, melee and charge; the buzz droid’s saw, leap/grab, rolling and rebound; the flying droid’s own firing and actions; the walker’s cannon and charge; droideka/B1/clone firing and class-specific actions; and grapple droid and flamethrower controls. R2-D2 has probe zap and repair, while C-3PO can repair itself and help a nearby partner, with a cooldown. Combat, balance and control work underpins the roster: check each class’s capabilities. Cody and Droid Commander retain JediJosh’s own kit.
+
+### Armas y acciones propias de cada personaje
+
+**La mayoría de los humanoides compatibles pueden usar bláster o sable láser.** El selector ofrece Automática, Sable, Bláster y Nativa, con perfiles y ajustes por personaje y para J1/J2.
+
+Para los droides y otros cuerpos especiales he revisado controles y ataques nativos: bláster de muñeca, golpes y embestida del superdroide; sierra, salto/agarre, rodar y rebote del zumbador; disparos y acciones propias del droide volador; cañón y embestida del andador; disparos y acciones de droideka/B1/clones; y controles del droide de garra y del lanzallamas. R2-D2 dispone de sonda eléctrica y reparación, y C-3PO puede repararse y ayudar al compañero cercano, con recarga. Hay trabajo de combate, equilibrio y controles detrás de las fichas: consulta las capacidades de cada clase. Cody y Droid Commander conservan su kit de JediJosh.
 
 
 <details>

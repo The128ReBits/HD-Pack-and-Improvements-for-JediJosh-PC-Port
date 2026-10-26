@@ -1,3 +1,5 @@
+[Download on ModDB / Descargar en ModDB](https://www.moddb.com/mods/revenge-of-the-sith-hd-pack-for-jedijoshs-pc-port/downloads/revenge-of-the-sith-hd-pack-update-v050-ntsc-u-rev20261026d)
+
 ![Promotional illustration — HD Pack by The128ReBits](https://media.moddb.com/images/mods/1/74/73782/Sith_HD_Improvements_Final_EN.png)
 
 # Pack de Texturas HD y mejoras — by The128ReBits
@@ -28,6 +30,22 @@ Los textos del pack están en español, inglés, francés, alemán e italiano, c
 
 **Cambio de personaje en campaña:** los 40 personajes que ya tenía el pack se pueden cambiar en plena partida desde mi selector del menú de pausa, incorporado en la edición para v0.4.0. Los personajes extra del Jedi Modpack y los dos nuevos de JediJosh —Comandante Cody y Droid Commander— también pueden jugarse en campaña, pero elegirlos en ese selector reinicia el nivel actual para aplicar el cambio.
 
+### Armas a tu gusto y personajes con su propia forma de jugar
+
+El selector de armas permite dar a cada personaje compatible su propio perfil: **Automática, Sable, Bláster o Nativa**. **La mayoría de los humanoides compatibles pueden jugar con bláster o sable láser**, con ajustes por personaje y para J1/J2. Puedes experimentar con combinaciones distintas sin perder de vista las recomendaciones de cada ficha.
+
+También hay mucho trabajo detrás de los droides y otros cuerpos especiales: he revisado sus controles y acciones nativas para que puedas manejar sus habilidades desde el mando y aprovechar su forma de combatir. Cada clase conserva sus recursos, movimientos y particularidades del juego.
+
+- **Superdroide de combate:** bláster de muñeca, variantes de golpes cuerpo a cuerpo y embestida.
+- **Droide zumbador:** sierra, salto y agarre, rodar y rebote, con ajustes de resistencia y protección frente a sus rutas de autodaño.
+- **Droide volador:** disparos alternos de sus brazos y acciones propias de cuchilla, escudo y propulsores.
+- **Andador:** cañón y embestida nativos llevados a los controles del jugador.
+- **Droideka, B1 y clones:** integración de disparos y acciones propias; en el B1 se revisó la combinación de disparar y empujar.
+- **Droide de garra y clon lanzallamas:** controles para sus ataques propios, como garras, pisotones, fuego, esquiva y agarre, según la clase.
+- **R2-D2 y C-3PO:** sonda eléctrica y reparación en R2; reparación propia y ayuda al compañero cercano en C-3PO, con tiempo de recarga.
+
+Estas mejoras reúnen trabajo en controles, combate, equilibrio y selección para dar a los personajes una forma de jugar reconocible. Las fichas explican sus capacidades y límites. Cody y Droid Commander conservan el kit propio incorporado por JediJosh.
+
 ### Nuevo en rev d
 
 El importador del Jedi Modpack v1.0, con selección individual de diez módulos, se ofrece ahora **durante ambos caminos de instalación**, además de poder abrirlo al terminar. Los opcionales empiezan desmarcados. Abres la página del autor, descargas el ZIP en el navegador, eliges el archivo local, revisas los módulos y guardas tu selección. Primero se completa el juego y el pack base; después se aplican solo los módulos elegidos.
@@ -55,7 +73,6 @@ Esta revisión admite únicamente el disco Xbox USA, **XBE MD5 `6460ef37862de3af
 
 ### Pendiente
 
-- **Cierres de Hoth y errores C0000005 abiertos.**
 - Instalación real completa con mods descargados por el usuario, DLSS de extremo a extremo y revisión de ventanas reales.
 - Symlink sin probar. Restaurar puede dejar carpetas vacías.
 - Restaurar el pack base no desinstala los opcionales: mantienen su diario propio.
@@ -93,6 +110,22 @@ Pack text is available in Spanish, English, French, German and Italian, with par
 
 **Campaign character switching:** the pack’s existing 40 characters can be switched during gameplay through my pause-menu selector, introduced in the pack for v0.4.0. The extra Jedi Modpack characters and JediJosh’s two new characters —Commander Cody and Droid Commander— can also be used in the campaign, but choosing them in that selector restarts the current level to apply the change.
 
+### Choose your weapons and explore each character’s own play style
+
+The weapon selector gives each compatible character an individual profile: **Automatic, Saber, Blaster or Native**. **Most compatible humanoid characters can use a blaster or lightsaber**, with character-specific settings and P1/P2 options. Try different combinations and use each character’s recommendations as a starting point.
+
+Droids and other special bodies have received substantial work too: I revised their controls and native actions so you can operate their abilities from a controller and make use of their own fighting style. Each class keeps the game’s resources, moves and individual traits.
+
+- **Super battle droid:** wrist blaster, native melee variants and charge.
+- **Buzz droid:** saw, leap and grab, rolling and rebound, with resistance adjustments and protection against its self-damage paths.
+- **Flying battle droid:** alternating arm fire and its own blade, shield and thruster actions.
+- **Walker:** native cannon and charge brought to player controls.
+- **Droideka, B1 and clones:** firing and class-specific actions; the B1’s firing/shove interaction was revised.
+- **Grapple droid and flamethrower clone:** controls for their own attacks, such as claws, stomps, fire, dodge and grab, depending on the class.
+- **R2-D2 and C-3PO:** R2’s probe zap and repair; C-3PO’s self-repair and help for a nearby partner, with a cooldown.
+
+These improvements bring together controls, combat, balance and character selection to give the roster distinct ways to play. Each entry explains its capabilities and limits. Cody and Droid Commander retain the kit JediJosh added for them.
+
 ### New in rev d
 
 The Jedi Modpack v1.0 importer, with individual selection of ten modules, is now offered **during both installation paths**, as well as at the end. Optional mods start unchecked. Visit the author’s page, download the ZIP in your browser, select the local file, review its modules and save your selection. The game and base pack are completed first; only the selected modules are applied afterwards.
@@ -120,7 +153,6 @@ This revision accepts only the Xbox USA disc, **XBE MD5 `6460ef37862de3af364a056
 
 ### Pending
 
-- **Hoth crashes and C0000005 errors remain open.**
 - Full real installation with user-downloaded mods, end-to-end DLSS and inspection of actual windows.
 - Symbolic-link testing pending. Restoring may leave empty folders.
 - Base pack restoration does not uninstall optional modules: they keep their own journal.
